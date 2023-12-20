@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const studentController = require('./StudentController');
 
-const PORT = 3000;
+const PORT = 8080;
 
 mongoose.connect(
   'mongodb+srv://student:ilovetesting@database-assessment.6vall.mongodb.net/week-4-assessment?retryWrites=true&w=majority',
@@ -25,5 +25,10 @@ app.use('/dist', express.static(path.join(__dirname, '../dist')));
 app.get('/', (req, res) => {
   return res.status(200).sendFile(path.join(__dirname, '../index.html'));
 });
+app.get('/login', (req, res) => {
+  return res.status(200).sendFile(path.join(__dirname, '../index.html'));
+});
+
+
 
 app.listen(PORT);
