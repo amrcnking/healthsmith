@@ -13,7 +13,7 @@ export const Register = (props) => {
   return (
     <div className='login-container'>
       <h2>create account</h2>
-      <form className='form' method='POST' action='/login'>
+      <form className='form' method='POST' action='/register'>
         <input name='name' type='text' placeholder='name'></input>
         <input name='username' type='text' placeholder='username'></input>
         <input name='password' type='password' placeholder='password'></input>
