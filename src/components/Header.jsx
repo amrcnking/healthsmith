@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles.css';
 
 export const Header = () => {
     return (
 
     <nav className="Nav">
-        <div>Food</div>
-        <div>Routines</div>
-        <div>Habits</div>
+        <div>eat &#127830;</div> 
+        <div>slay &#x1f525;</div>
+        <div>live &#128151;</div>
     </nav>
     
     )
