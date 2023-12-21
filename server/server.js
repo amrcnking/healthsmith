@@ -17,8 +17,6 @@ mongoose.connection.once('open', () => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const studentRouter = express.Router();
-app.use('/student', studentRouter);
 
 app.use('/dist', express.static(path.join(__dirname, '../dist')));
 // serve index.html on the route '/'
