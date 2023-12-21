@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import { Link, Routes, Route } from 'react-router-dom';
 import '../styles.css';
 // import { Eat } from './Eat.jsx';
 
 export const Header = () => {
     return (
     <nav className="Nav">
-        <div>eat &#127830;</div> 
-        <div>slay &#x1f525;</div>
-        <div>live &#128151;</div>
+        <div><Link to='/eat'>eat &#127830;</Link></div> 
+        <div><Link to='/slay'>slay &#x1f525;</Link></div>
+        <div><Link to='/live'>live &#128151;</Link></div>
     </nav>
     )
 }

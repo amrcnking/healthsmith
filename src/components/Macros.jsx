@@ -12,10 +12,10 @@ export const Macros = (props) => {
         <h3>protein nommed: {protein}</h3>
         <form className='form' method='POST' action='/login'>
           <input name='username' type='text' placeholder='food'></input>
-          <input name='password' type='password' placeholder='protein'></input>
-          <input name='password' type='password' placeholder='fat'></input>
-          <input name='password' type='password' placeholder='carbs'></input>
-          <button className='loginBtn' type='submit'>log</button>
+          <input name='password' type='password' placeholder='protein (g)'></input>
+          <input name='password' type='password' placeholder='fat (g)'></input>
+          <input name='password' type='password' placeholder='carbs (g)'></input>
+          <button className='loginBtn' type='submit'>bussin'</button>
         </form>
     </div>
     )

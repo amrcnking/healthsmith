@@ -35,16 +35,15 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions:['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
     static: {
       publicPath: '/dist',
-      directory: path.resolve(__dirname, 'dist')
+      directory: path.resolve(__dirname, 'dist'),
     },
     proxy: {
-      '/': 'http://localhost:3000'
-    }
+      '/api': 'http://localhost:3000',
+    },
   },
-  
 };
