@@ -14,11 +14,11 @@ const App = () => {
   };
 
   
-    return (
-        <Routes>
-            <Route path='/' element={ <Eat onFormSwitch={toggleForm}/> }/>
-        </Routes>
-    )    
+    // return (
+    //     <Routes>
+    //         <Route path='/' element={ <Eat onFormSwitch={toggleForm}/> }/>
+    //     </Routes>
+    // )    
 
 
   return (
