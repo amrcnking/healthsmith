@@ -12,13 +12,13 @@ export const Register = (props) => {
 
   return (
     <div className='login-container'>
-      <h2>create account</h2>
+      <h2>unlock codesmith+</h2>
       <form className='form' method='POST' action='/register'>
         <input name='name' type='text' placeholder='name'></input>
         <input name='username' type='text' placeholder='username'></input>
         <input name='password' type='password' placeholder='password'></input>
         <button className='loginBtn' type='submit'>
-          join codesmith2.0
+          register
         </button>
       </form>
       <button className='registerBtn' onClick={() =>props.onFormSwitch('login')}>

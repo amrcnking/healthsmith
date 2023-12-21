@@ -31,7 +31,9 @@ h1 {
 .Nav div {
   font-size: 20px;
 }
-
+.Nav button {
+  font-size: 20px;
+}
 .login-container {
   width: 300px;
   margin: 0 auto;

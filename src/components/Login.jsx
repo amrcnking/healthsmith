@@ -17,7 +17,7 @@ export const Login = (props) => {
           <input name='password' type='password' placeholder='password'></input>
           <button className='loginBtn' type='submit'>login</button>
         </form>
-        <button className='registerBtn' onClick={() =>props.onFormSwitch('register')}>register and join the cult	&#128520;</button>
+        <button className='registerBtn' onClick={() =>props.onFormSwitch('register')}>join the cult	&#128520;</button>
     </div>
     )
 }
