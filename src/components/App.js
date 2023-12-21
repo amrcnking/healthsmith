@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import '../styles.css';
 import { Header } from './Header.jsx';
 import { Login } from './Login.jsx';
 import { Register } from './Register.jsx';
+import { Eat } from './Eat.jsx';
 
 const App = () => {
   const [currentForm, setCurrentForm] = useState('login');
@@ -10,6 +12,14 @@ const App = () => {
   const toggleForm = (formName) => {
     setCurrentForm(formName);
   };
+
+  
+    // return (
+    //     <Routes>
+    //         <Route path='/' element={ <Eat /> }/>
+    //     </Routes>
+    // )    
+
 
   return (
     <div className='App'>

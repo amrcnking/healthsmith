@@ -45,6 +45,11 @@ h2{
   text-align: center;
   margin-bottom: 20px;
 }
+/* protein tracker */
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
 button{
   width: 100%;
   padding: 10px;

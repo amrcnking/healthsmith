@@ -18,7 +18,7 @@ export const Register = (props) => {
         <input name='username' type='text' placeholder='username'></input>
         <input name='password' type='password' placeholder='password'></input>
         <button className='loginBtn' type='submit'>
-          register
+          join codesmith2.0
         </button>
       </form>
       <button className='registerBtn' onClick={() =>props.onFormSwitch('login')}>
